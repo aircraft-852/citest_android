@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true">
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+        
+            <LinearLayout 
+                android:layout_height="2dp"
+            	android:layout_width="fill_parent"
+            	android:background="@color/kl_white"></LinearLayout>
+            
+	        <RadioGroup
+	        android:id="@+id/mainmenu_bottom"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentBottom="true"
+	        android:layout_gravity="bottom"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal">            
+	
+	        <!-- 我的班车 -->
+	        <RadioButton
+	            android:id="@+id/rdbtn_mybus"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1"
+	            android:background="@drawable/main_menu_bottom"
+	            android:gravity="center"
+	            android:text="我的班车"
+	            android:textSize="16sp"
+	            android:textColor="@color/kl_black"
+	            android:button="@null"
+	            android:checked="true" />
+	        
+	        <!-- 导航 -->
+	        <RadioButton
+	            android:id="@+id/rdbtn_navi"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1"
+	            android:background="@drawable/main_menu_bottom"
+	            android:gravity="center"
+	            android:text="班车导航"
+	            android:textSize="16sp"
+	            android:textColor="@color/kl_black"
+	            android:button="@null" />
+	        
+	        <!-- 更多 -->
+	        <RadioButton
+	            android:id="@+id/rdbtn_more"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1"
+	            android:background="@drawable/main_menu_bottom"
+	            android:gravity="center"
+	            android:text="更多内容"
+	            android:textSize="16sp"
+	            android:textColor="@color/kl_black"
+	            android:button="@null" />
+	        </RadioGroup>
+
+        </LinearLayout>
+    </RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="kl_white">#ffffff</color>
+    <color name="kl_black">#000000</color>
+	<color name="kl_blue">#3b95d3</color>
+	<color name="kl_gray">#f0f0f0</color>
+	<color name="kl_gray_text">#b4b4b4</color>
+	<color name="kl_purple">#9f70c0</color>
+	<color name="kl_orange">#f19c32</color>
+	<color name="kl_green">#71bf95</color>
+</resources>
